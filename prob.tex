@@ -10,11 +10,13 @@ This work is freely redistributable under the terms of
 the GNU Free Documentation License.
 }}
 \date{Version dated 4 July 2006}
-
+\usepackage[colorlinks=true, linkcolor=blue]{hyperref}
 \usepackage{theorem}
+
 \theorembodyfont{\rmfamily}
-\usepackage[dvips]{epsfig}	% specify `dvips' driver
-%\usepackage[pdftex]{epsfig}	% specify `pdftex' driver
+%\usepackage[dvips]{epsfig}	% specify `dvips' driver
+\usepackage[pdftex]{epsfig}	% specify `pdftex' driver
+
 \usepackage{makeidx}
 \setlength{\textheight}{8.1in}
 \setlength{\textwidth}{5in}
@@ -25,7 +27,7 @@ the GNU Free Documentation License.
 %
 % Low-level figure positioning.  Change as appropriate to your system.
 %
-\newcommand{\barefig}[2]{\makebox{\includegraphics*[width=#2] {figures/#1.ps}}} 
+\newcommand{\barefig}[2]{\makebox{\includegraphics*[width=#2] {figures/#1.pdf}}}
 %
 % Higher-level figure commands.
 %
